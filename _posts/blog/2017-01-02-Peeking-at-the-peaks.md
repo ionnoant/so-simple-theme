@@ -314,7 +314,7 @@ d3heatmap(data_wide_day[,2:13], scale="column", colors="YlOrRd",Rowv = FALSE,Col
 
 
 
-<img src="/images/2017-01-02-Peeking-at-the-peaks/weeklyheatmap.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/weeklyheatmap.PNG" title="center" alt="center" style="display: block; margin: auto;" />
 
 {% highlight r %}
 library(reshape2);library(d3heatmap);library(gridExtra)
@@ -328,7 +328,7 @@ d3heatmap(data_wide_month[,2:13], scale="column", colors="YlOrRd",Rowv = FALSE,C
 
 
 
-<img src="/images/2017-01-02-Peeking-at-the-peaks/monthlyheatmap.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/monthlyheatmap.PNG" title="center" alt="center" style="display: block; margin: auto;" />
 
 If this is not interactive, then I have failed. But it still looks cool! The comparison between the weekly and monthly day variables are interesting. Conditional on month, the first four days of the week appear to always have a higher maximum system demand than the last three days of the week (except for February, August, and November who seem to want to ruin this for me). The second heat map shows that the monthly maximum is typically grouped with daily maximum demands that are larger than that month's average daily maximum demand.
 
