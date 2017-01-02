@@ -1,10 +1,11 @@
 ---
-title: "Analyzing IESO Demand Data"
-author: "Anthony Ionno"
-date: "November 21, 2016"
-output:
-  html_document: default
-  word_document: default
+layout: post
+title: "Taking a Peek at the Peaks"
+date: 2017-01-02
+output: html_document
+share: true
+categories: blog
+excerpt: "Ingestigating Energy Demand Data in Ontario"
 ---
 
 If you read my `About Me` section than you are aware that I work for the energy regulator for the province of Ontario, the Ontario Energy Board. Before working at the OEB, I had never really given much thought to how people use energy, but I think this is an interesting subject that can be explored more fully in Ontario. Especially since the provincial government required that technologies be installed to track customers' energy usage information at a more granular level, hourly as opposed to monthly (in most cases).
