@@ -124,7 +124,7 @@ myPal <- cols(length(unique(`2015 Demand Data`$Month)))
 grid.arrange(`Daily Load Profiles`,`Average Monthly Load Profile`,`Average Seasonal Load Profile`,ncol=3,top=textGrob("Provincial Energy Demand Profiles in 2015",gp=gpar(fontsize=16,font=2)))
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-3-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-3-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 
 Starting from the leftmost graph we can get a sense of daily provincial energy demand, broken down by month. The yearly peak, the highest point of energy demanded within the province, seems to have occurred in on the Tuesday July 28 at 5pm (heatmaps I produce later on in this post confirm this to be true). 
@@ -180,7 +180,7 @@ Alright, let's produce the same set of graphs as before but exclude weekends.
 grid.arrange(`Daily Load Profiles`,`Average Monthly Load Profile`,`Average Seasonal Load Profile`,ncol=3,top=textGrob("Provincial Energy Demand Profiles in 2015, Excluding Weekends",gp=gpar(fontsize=16,font=2)))            
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-4-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-4-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 Looks similar enough to the previous set of graphs. Lets look at the same set of graphs but weekends only.
 
@@ -228,7 +228,7 @@ Looks similar enough to the previous set of graphs. Lets look at the same set of
 grid.arrange(`Daily Load Profiles`,`Average Monthly Load Profile`,`Average Seasonal Load Profile`,ncol=3,top=textGrob("Provincial Energy Demand Profiles in 2015, Excluding Weekdays",gp=gpar(fontsize=16,font=2)))            
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-5-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-5-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 It appears that on weekends (in 2015 at least), Ontario experiences a gradual increase in energy demand that peaks somewhere between 5pm and 8pm, depending on the month and or season. The average winter system load profile is everywhere above the other seasonal load profiles.
 
@@ -294,7 +294,7 @@ grid.arrange(`Daily Load Profiles` + facet_grid(. ~ DayOfWeek),
   `Average Season Load Profile`+ facet_grid(. ~ DayOfWeek),nrow=3)
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-6-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-6-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 The seasonal graphs seem to show, that on average, the winter and summer seasonal load profiles appear to have a higher overall system demand between 10am and 8pm than the fall and spring seasons.
 
@@ -313,10 +313,7 @@ d3heatmap(data_wide_day[,2:13], scale="column", colors="YlOrRd",Rowv = FALSE,Col
 
 
 
-{% highlight text %}
-## Error in loadNamespace(name): there is no package called 'webshot'
-{% endhighlight %}
-
+<img src="/images/2017-01-02-Peeking-at-the-peaks/weeklyheatmap.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 {% highlight r %}
 library(reshape2);library(d3heatmap);library(gridExtra)
@@ -330,21 +327,8 @@ d3heatmap(data_wide_month[,2:13], scale="column", colors="YlOrRd",Rowv = FALSE,C
 
 
 
-{% highlight text %}
-## Error in loadNamespace(name): there is no package called 'webshot'
-{% endhighlight %}
+<img src="/images/2017-01-02-Peeking-at-the-peaks/monthlyheatmap.png" title="center" alt="center" style="display: block; margin: auto;" />
 
-
-
-{% highlight r %}
-d3heatmap(data_wide_month[,2:13], scale="column", colors="YlOrRd",Rowv = FALSE,Colv = FALSE)
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Error in loadNamespace(name): there is no package called 'webshot'
-{% endhighlight %}
 If this is not interactive, then I have failed. But it still looks cool! The comparison between the weekly and monthly day variables are interesting. Conditional on month, the first four days of the week appear to always have a higher maximum system demand than the last three days of the week (except for February, August, and November who seem to want to ruin this for me). The second heat map shows that the monthly maximum is typically grouped with daily maximum demands that are larger than that month's average daily maximum demand.
 
 Given that the heat maps above have provided us with information on when the monthly maximums occur, let's compare these maximum load profiles to the average daily load profiles we created earlier.
@@ -427,13 +411,13 @@ grid.arrange(`Max. Monthly Demand Load Profile`, `Average Monthly Load Profile`,
              top=textGrob("Comparing Monthly Maximum and Average Load Profiles",gp=gpar(fontsize=16,font=2)))
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-9-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-9-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 {% highlight r %}
 grid.arrange(`Max. Seasonal Demand Load Profile`, `Average Seasonal Load Profile`, ncol=2,
              top=textGrob("Comparing Seasonal Maximum and Average Load Profiles",gp=gpar(fontsize=16,font=2)))
 {% endhighlight %}
 
-<img src="/figs/First Blog Post/unnamed-chunk-9-2.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-9-2.png" title="center" alt="center" style="display: block; margin: auto;" />
 
 This is it, the last set of graphs for this post! In terms of monthly maximums, Ontario definitely experiences higher demand (at least in 2015) in the summer period I defined. However, on average the winter seasonal load profile is everywhere above the summer load profile. I think in a future post it would be interesting to look across multiple years to see what sort of seasonal relationships exist, while also accounting for weather. 
