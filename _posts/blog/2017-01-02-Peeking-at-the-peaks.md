@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Peeking at the Peaks"
+author: anthony_ionno
 date: 2017-01-02
 output: html_document
 categories: blog
