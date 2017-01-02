@@ -38,7 +38,7 @@ KnitPost <- function(input, outfile, base.url="/") {
 
 for (infile in list.files("/_R", pattern="*.Rmd", full.names=TRUE)) {
 
-  outfile = paste0("/_posts/", sub(".Rmd$", ".md", basename(infile)))
+  outfile = paste0("/_blog/", sub(".Rmd$", ".md", basename(infile)))
 
   
 
