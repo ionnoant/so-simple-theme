@@ -125,7 +125,7 @@ myPal <- cols(length(unique(`2015 Demand Data`$Month)))
 grid.arrange(`Daily Load Profiles`,`Average Monthly Load Profile`,`Average Seasonal Load Profile`,ncol=3,top=textGrob("Provincial Energy Demand Profiles in 2015",gp=gpar(fontsize=16,font=2)))
 {% endhighlight %}
 
-<img src="/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-3-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+![center](/images/2017-01-02-Peeking-at-the-peaks/unnamed-chunk-3-1.png)
 
 
 Starting from the leftmost graph we can get a sense of daily provincial energy demand, broken down by month. The yearly peak, the highest point of energy demanded within the province, seems to have occurred in on the Tuesday July 28 at 5pm (heatmaps I produce later on in this post confirm this to be true). 
