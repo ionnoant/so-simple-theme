@@ -8,7 +8,7 @@ categories: blog
 excerpt: "Investigating Energy Demand Data in Ontario"
 ---
 
-If you read my `About Me` section than you are aware that I work for the energy regulator for the province of Ontario, the Ontario Energy Board. Before working at the OEB, I had never really given much thought to how people use energy, but I think this is an interesting subject that can be explored more fully in Ontario. Especially since the provincial government required that technologies be installed to track customers' energy usage information at a more granular level, hourly as opposed to monthly (in most cases).
+If you read my `About Me` section than you are aware that I work within the energy industry within the province of Ontario. Before working within the energy industry, I had never really given much thought to how people use energy, but I think this is an interesting subject that can be explored more fully in Ontario. Especially since the provincial government required that technologies be installed to track customers' energy usage information at a more granular level, hourly as opposed to monthly (in most cases).
 
 In this post, I want to take a look at energy usage at a system level over the course of a day, broken down by various date variables. This will give us an opportunity to see how the province uses energy during the day broken down by month and season and even by day of the week. 
 
