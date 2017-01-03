@@ -45,10 +45,10 @@ This data is super clean and tidy but we are going to need some additional date 
 
 The date variables I want to create are a month variable ordered from 1 to 12 and two new day variables, one keeping track of what day of the week it is (1-7) and another tracking what day of the month it is (1- whatever the last day of the month is). Once these are created I format my month variable from numbers to actual month names and create a `Season` variable that has four values and allocates the months as follows:
 
-Winter - Dec, Jan, and Feb
-Spring - Mar, Apr, and May
-Summer - Jun, July, and Aug
-Fall - Sept, Oct, Nov
+* Winter - Dec, Jan, and Feb
+* Spring - Mar, Apr, and May
+* Summer - Jun, July, and Aug
+* Fall - Sept, Oct, and Nov
 
 
 {% highlight r %}
