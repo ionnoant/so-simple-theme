@@ -233,7 +233,7 @@ grid.arrange(`Daily Load Profiles`,`Average Monthly Load Profile`,`Average Seaso
 
 It appears that on weekends (in 2015 at least), Ontario experiences a gradual increase in energy demand that peaks somewhere between 5pm and 8pm, depending on the month and or season. The average winter system load profile is everywhere above the other seasonal load profiles.
 
-Okay, now lets take a look at system load profiles, broken downn by day of the week. Before I do this I want to format the weekly date variable from a  number format (1-7) to a date format (Mon-Sun), it'll look nicer and I am picky.   
+Okay, now lets take a look at system load profiles, broken down by day of the week. Before I do this I want to format the weekly date variable from a  number format (1-7) to a date format (Mon-Sun), it'll look nicer and I am picky.   
 
 
 {% highlight r %}
