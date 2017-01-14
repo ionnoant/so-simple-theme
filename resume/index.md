@@ -7,9 +7,11 @@ title: Resume
 
 # Education
 University of Toronto Toronto
+
 Master of Arts, Economics, 2011–2013
 University of Toronto Toronto
 Honours Bachelor of Science, Mathematics and Economics, 2006–2011
+
 Minor in Applied Statistics
 
 # Work Experience
