@@ -20,6 +20,7 @@ Utilize statistical and data analysis techniques to develop and assess energy po
 Ontario.
 
 Detailed achievements:
+
 * Created a database of hourly customer energy data of approximately one million customers in the province of Ontario.
 * Developed low-income credit amounts and forecasted program costs, under various low-income population and credit scenarios, for the Ontario Electricity Support Program which appear in a Report of the Board: Developing an Electricity Support Program.
 * Wrote a technical appendix for a Draft Report of the Board that modeled residential distribution rate impacts and also provided additional analyses in a Final Board Policy Report.
