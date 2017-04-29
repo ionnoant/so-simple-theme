@@ -31,15 +31,15 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 4 Total Estimated Interruptions by Streetcar Route.PNG)
 
-*	IOS tweets and which day of the week it is appear to be dependent on one another (i.e., There is not enough evidence to suggest that IOS tweets and day of the week are independent – statistical jargony way of saying this, my stats profs drilled this into my head, I’m sorry).
+*	IOS tweets and day of the week are independent of on one another (i.e., There is not enough evidence to suggest that IOS tweets and day of the week are dependent – statistical jargony way of saying this, my stats profs drilled this into my head, I’m sorry).
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.PNG)
 
-*	IOS tweets by hour suggest that the fewest amount of interruptions occurs early in the morning, between 8-10am, and more frequently between 8pm to 2am.
+*	IOS tweets by hour suggest that the fewest amount of interruptions occur early in the morning, between 8-10am, and more frequently between 8pm to 2am.
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions Broken Down by Hour.JPG)
 
-*	Although this can differ significantly by subway station and to show that I created a [Shiny app](https://ionnoant.shinyapps.io/subwayplot/) that will dynamically update a graph for you depending on the subway station you select.
+*	This can differ significantly by subway station and to show that I created a [Shiny app](https://ionnoant.shinyapps.io/subwayplot/) that will dynamically update a graph for you depending on the subway station you select.
 
 
 I think its worth bringing up that these findings are all based on estimates that I constructed and should be thought of as informative but obviously not definitive, there is a lot of work to go before we can get to that point. However, I do think this analysis is promising and I look forward to making improvements and adjustments as time progresses. I was also going to include results with bus routes but I've run into some technical difficulties identifying bus routes correctly. I hope to make an edit to this post or do a separate post where I incorporate those results into this work.
