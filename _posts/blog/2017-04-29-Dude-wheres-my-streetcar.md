@@ -14,7 +14,7 @@ excerpt:  "A test-based analysis of Toronto Transit Commission Twitter Data"
 In this post I thought it would be interesting to download some data from the Toronto Transit Commission’s (TTC) twitter page and conduct some text mining on said data to get a better sense of interruptions of service (IOS) within the city of Toronto. Specifically, I want to understand which subway stops, and streetcar routes seem to receive the most attention on the TTC’s twitter feed and also appear to suffer from some sort of IOS. In order to do that I have downloaded six months’ worth of data from the @TTCNotices twitter feed. My intention was to do this post with only three months’ worth of data; however this post got delayed by several months, providing me with the opportunity to collect even more data (hooray!). Just to give you a sense of what to expect I created a neat distribution of total tweets, broken down by day below in Figure 1.
 
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 1 Total Daily TTC Tweets.png)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 1 Total Daily TTC Tweets.PNG)
 ## Main Findings and Considerations
 
 I’ve decided to summarise all my findings first so that  if you aren’t interested in seeing the more technical aspects of this post then you don’t need to read past this section(hooray!?x2).
@@ -24,19 +24,19 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 * 	The subway stations with the most amount of IOS tweets are Union, Bloor, and Dundas West stations with 44, 37, and 34 IOS tweets.  
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.png)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.PNG)
 
 *	The 512 Queen streetcar recorded the most IOS tweets and by a large margin, the next streetcar the 504 King recorded 127 fewer IOS tweets. 
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 4 Total Estimated Interruptions by Streetcar Route.png)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 4 Total Estimated Interruptions by Streetcar Route.PNG)
 
 *	IOS tweets and which day of the week it is appear to be dependent on one another (i.e., There is not enough evidence to suggest that IOS tweets and day of the week are independent – statistical jargony way of saying this, my stats profs drilled this into my head, I’m sorry).
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.png)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.PNG)
 
 *	IOS tweets by hour suggest that the fewest amount of interruptions occurs early in the morning, between 8-10am, and more frequently between 8pm to 2am.
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions Broken Down by Hour.jpg)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions Broken Down by Hour.JPG)
 
 *	Although this can differ significantly by subway station and to show that I created a [Shiny app](https://ionnoant.shinyapps.io/subwayplot/) that will dynamically update a graph for you depending on the subway station you select.
 
@@ -227,7 +227,7 @@ totalInterruptions %>%
   ylab(NULL)
 {% endhighlight %}
 
-![center](/figs/example/unnamed-chunk-11-3.png)
+
 
 
 We can also look at total broken down by which day of the week it is and use a Pearson’s chi-squared test to determine if the number of IOS tweets are independent of which day of the week it is. We can also do this including and excluding weekends to see if there is any significant difference in our result. 
@@ -259,7 +259,7 @@ chisq.test(ggplot_build(chisquare)$data[[1]][,c(5)],ggplot_build(chisquare)$data
 {% endhighlight %}
 
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/unnamed-chunk-3-1.png)
+
 
 
 Based on the results of our chi-square test we can stat that there is not enough evidence to suggest that IOS tweets and days of the week are independent from one another. 
@@ -283,7 +283,7 @@ ggplot(data = filter(df,`Stop Type`!='Other'), aes(x = as.factor(hour))) +
   scale_fill_gradientn(colours = viridis(5))
 {% endhighlight %}
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/unnamed-chunk-3-1.png)
+
 
 The first time I looked at these results I was a little surprised. I expected there to be more interruptions earlier on in the day but that doesn’t seem to be the case at all. If anything the most interruptions occur between 1 to 2am.
 
