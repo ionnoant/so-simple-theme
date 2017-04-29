@@ -263,7 +263,7 @@ chisq.test(ggplot_build(chisquare)$data[[1]][,c(5)],ggplot_build(chisquare)$data
 
 
 
-Based on the results of our chi-square test we can stat that there is not enough evidence to suggest that IOS tweets and days of the week are dependent on another. 
+Based on the results of our chi-square test we can state that there is not enough evidence to suggest that IOS tweets and days of the week are dependent on another. 
 
 Determining how IOS tweets are distributed throughout the day should also be fairly interesting. I always remember the times where I am on the subway in the morning during rush hour and the TTC prompts that there is a delay but I don’t pay attention to all the days the subway or a bus or a streetcar is running smoothly. So let’s create a distribution of IOS tweets by hour of the day. 
 
