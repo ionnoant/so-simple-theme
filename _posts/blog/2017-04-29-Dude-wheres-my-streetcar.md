@@ -15,6 +15,7 @@ In this post I thought it would be interesting to download some data from the To
 
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 1 Total Daily TTC Tweets.PNG)
+
 ## Main Findings and Considerations
 
 I’ve decided to summarise all my findings first so that  if you aren’t interested in seeing the more technical aspects of this post then you don’t need to read past this section(hooray!?x2).
