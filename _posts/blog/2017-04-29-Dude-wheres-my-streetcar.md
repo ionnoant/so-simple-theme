@@ -5,7 +5,7 @@ author: anthony_ionno
 date: 2017-04-29
 output: html_document
 categories: blog
-excerpt:  "A test-based analysis of Toronto Transit Commission Twitter Data"
+excerpt:  "A Text-Based Analysis of Toronto Transit Commission Twitter Data"
 ---
 
 
