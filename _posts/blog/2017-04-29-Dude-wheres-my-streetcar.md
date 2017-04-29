@@ -260,12 +260,13 @@ chisq.test(ggplot_build(chisquare)$data[[1]][,c(5)],ggplot_build(chisquare)$data
 {% endhighlight %}
 
 
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.PNG)
 
 
 
 Based on the results of our chi-square test we can state that there is not enough evidence to suggest that IOS tweets and days of the week are dependent on another. 
 
-Determining how IOS tweets are distributed throughout the day should also be fairly interesting. I always remember the times where I am on the subway in the morning during rush hour and the TTC prompts that there is a delay but I don’t pay attention to all the days the subway or a bus or a streetcar is running smoothly. So let’s create a distribution of IOS tweets by hour of the day. 
+Determining how IOS tweets are distributed throughout the day should also be fairly interesting. I always remember the times where I am on the subway in the morning during rush hour and the TTC prompts that there is a delay but I don’t pay attention to all the days when the subway,bus or streetcar is running smoothly. So let’s create a distribution of IOS tweets by hour of the day. 
 
 
 {% highlight r %}
@@ -284,6 +285,7 @@ ggplot(data = filter(df,`Stop Type`!='Other'), aes(x = as.factor(hour))) +
   scale_fill_gradientn(colours = viridis(5))
 {% endhighlight %}
 
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions Broken Down by Hour.JPG)
 
 
 The first time I looked at these results I was a little surprised. I expected there to be more interruptions earlier on in the day but that doesn’t seem to be the case at all. If anything the most interruptions occur between 1 to 2am.
