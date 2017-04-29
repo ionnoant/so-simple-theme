@@ -25,7 +25,7 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 * 	The subway stations with the most amount of IOS tweets are Union, Bloor, and Dundas West stations with 44, 37, and 34 IOS tweets.  
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.PNG)
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.png)
 
 *	The 512 Queen streetcar recorded the most IOS tweets and by a large margin, the next streetcar the 504 King recorded 127 fewer IOS tweets. 
 
