@@ -13,8 +13,8 @@ excerpt:  "A test-based analysis of Toronto Transit Commission Twitter Data"
 
 In this post I thought it would be interesting to download some data from the Toronto Transit Commission’s (TTC) twitter page and conduct some text mining on said data to get a better sense of interruptions of service (IOS) within the city of Toronto. Specifically, I want to understand which subway stops, and streetcar routes seem to receive the most attention on the TTC’s twitter feed and also appear to suffer from some sort of IOS. In order to do that I have downloaded six months’ worth of data from the @TTCNotices twitter feed. My intention was to do this post with only three months’ worth of data; however this post got delayed by several months, providing me with the opportunity to collect even more data (hooray!). Just to give you a sense of what to expect I created a neat distribution of total tweets, broken down by day below in Figure 1.
 
-![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 1 Total Daily TTC Tweets.png)
 
+![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 1 Total Daily TTC Tweets.png)
 ## Main Findings and Considerations
 
 I’ve decided to summarise all my findings first so that  if you aren’t interested in seeing the more technical aspects of this post then you don’t need to read past this section(hooray!?x2).
