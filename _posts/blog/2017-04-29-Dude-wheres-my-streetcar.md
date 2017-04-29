@@ -31,7 +31,7 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 4 Total Estimated Interruptions by Streetcar Route.PNG)
 
-*	IOS tweets and day of the week are independent of on one another (i.e., There is not enough evidence to suggest that IOS tweets and day of the week are dependent – statistical jargony way of saying this, my stats profs drilled this into my head, I’m sorry).
+*	IOS tweets and which day of the week it is are independent of one another (i.e., There is not enough evidence to suggest that IOS tweets and day of the week are dependent of one another). For the figure below one represents Monday and seven represents Sunday. 
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.PNG)
 
