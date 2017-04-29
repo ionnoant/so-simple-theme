@@ -46,7 +46,7 @@ I think its worth bringing up that these findings are all based on estimates tha
 
 ## Data
 
-As mentioned in the summary section I acquired this data from the @TTCNotices twitter account in two pulls. The first pull occurred a couple months ago and the most recent pull was performed ~X days ago. Requesting information from the twitter API restricts the number of observations you can get any time so by waiting three months I was able to get another three months’ worth of data. In total, the entire sample contains roughly 6.3 thousand data points and if we take the straight average of the number of data points divided by the number of weeks that translates to approximately 245 tweets a week or 1,062 tweets a month.
+As mentioned in the summary section I acquired this data from the @TTCNotices twitter account in two pulls. The first pull occurred a couple months ago and the most recent pull was performed approximately 5 days ago. Requesting information from the twitter API restricts the number of observations you can get any time so by waiting three months I was able to get another three months’ worth of data. In total, the entire sample contains roughly 6.3 thousand data points and if we take the straight average of the number of data points divided by the number of weeks that translates to approximately 245 tweets a week or 1,062 tweets a month.
 
 In order to get a list of the subways stops and streetcar routes in the city I pulled information off of the TTC’s [main webpage](http://www.ttc.ca/).
 
