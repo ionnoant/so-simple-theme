@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dude, Wheres my Streetcar?"
+title: "Dude, Where's my Streetcar?"
 author: anthony_ionno
 date: 2017-01-02
 output: html_document
