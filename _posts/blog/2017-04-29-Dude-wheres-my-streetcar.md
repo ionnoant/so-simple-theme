@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Dude, Wheres my Streetcar?"
 author: anthony_ionno
