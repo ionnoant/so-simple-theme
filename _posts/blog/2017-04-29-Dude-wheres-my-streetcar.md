@@ -19,11 +19,11 @@ In this post I thought it would be interesting to download some data from the To
 ## Main Findings and Considerations
 
 I’ve decided to summarise all my findings first so that  if you aren’t interested in seeing the more technical aspects of this post then you don’t need to read past this section(hooray!?x2).
-*	There are a significantly larger amount of IOS tweets involving streetcar routes than subway stations. Over the 6 months’ worth of data there are 2,279 tweets that had to do with IOS for streetcar routes compared to 912 for subway stations. 
+*	IOS tweets about streetcar routes are significantly more frequent than those about subway stations. Over the 6 months’ worth of data there are 2,279 tweets that have to do with IOS for streetcar routes compared to 912 for subway stations. 
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 5 Total Estimated Interruptions by Transportation Type.PNG)
 
-* 	The subway stations with the most amount of IOS tweets are Union, Bloor, and Dundas West stations with 44, 37, and 34 IOS tweets.  
+* 	The subway stations with the largest amount of IOS tweets are Union, Bloor, and Dundas West stations with 44, 37, and 34 IOS tweets.  
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.png)
 
