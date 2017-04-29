@@ -2,12 +2,11 @@
 layout: post
 title: "Dude, Wheres my Streetcar?"
 author: anthony_ionno
-date: 2017-04-29
-output:html_document
+date: 2017-01-02
+output: html_document
 categories: blog
-excerpt: "A test-based analysis of Toronto Transit Commission Twitter Data"
+excerpt:  "A test-based analysis of Toronto Transit Commission Twitter Data"
 ---
-
 
 
 ## Introduction
