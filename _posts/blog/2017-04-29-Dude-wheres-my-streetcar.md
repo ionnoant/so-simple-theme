@@ -27,7 +27,7 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 2 Total Estimated Interruptions by Subway Station.png)
 
-*	The 512 Queen streetcar recorded the most IOS tweets and by a large margin, the next streetcar the 504 King recorded 127 fewer IOS tweets. 
+*	The 501 Queen streetcar recorded the most IOS tweets and by a large margin, the next streetcar the 504 King recorded 127 fewer IOS tweets. 
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 4 Total Estimated Interruptions by Streetcar Route.PNG)
 
