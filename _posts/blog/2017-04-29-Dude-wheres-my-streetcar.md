@@ -35,7 +35,7 @@ I’ve decided to summarise all my findings first so that  if you aren’t inter
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions by Day of the Week.PNG)
 
-*	IOS tweets by hour suggest that the fewest amount of interruptions occur early in the morning, between 8-10am, and more frequently between 8pm to 2am.
+*	IOS tweets by hour suggest that the fewest amount of interruptions occur in the morning, between 8-10am, and more frequently late at night, between 8pm to 2am.
 
 ![center](/images/2017-04-29-Dude-wheres-my-streetcar/Figure 6 Total Estimated Interruptions Broken Down by Hour.JPG)
 
