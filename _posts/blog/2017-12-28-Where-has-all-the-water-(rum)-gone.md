@@ -22,7 +22,7 @@ The figure below shows that overall total water usage appears to be monotonicall
 
 The figure below shows the range of average water consumption values across all wards for 2001 and 2015. In both years, average water usage varies drastically; average water usage can be anywhere between 0 and 232 percent higher than another ward depending on the wards chosen for comparison.
 
-![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_Residential_Usage_2001_and_2015.png)
+![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_Residential_Usage_2001_and_2015.PNG)
 
 
 ## Geospatial Analysis 
