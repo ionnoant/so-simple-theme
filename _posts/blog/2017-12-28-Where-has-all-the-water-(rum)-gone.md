@@ -16,7 +16,7 @@ What I found was a set of annual water usage data on the City of Toronto’s web
 
 Total and average water usage within the City of Toronto appears to be falling; however, for this analysis I ignore the year 2000 since the drop in total usage seems drastic and potentially incorrect, because of this I will refer to 2001 as the starting year in the dataset.
 
-The figure below shows that overall total water usage appears to be monotonically decreasing. Total water usage is 154.6 million $$m^3$$ in 2000 and 134.9 million $$m^3$$ in 2015 while average water usage is 417 and 290 $$m^3$$. If I translate this to the recommended amount of water usage described above then in 2015 approximately .23 percent of water is used for consumption, while 99.77 percent is used for other purposes. 
+The figure below shows that overall total water usage appears to be monotonically decreasing. Total water usage is 154.6 million $$m^3$$ in $$2001$$ and $$134.9$$ million $$m^3$$ in $$2015$$ while average water usage is 417 and 290 $$m^3$$. If I translate this to the recommended amount of water usage described above then in 2015 approximately .23 percent of water is used for consumption, while 99.77 percent is used for other purposes. 
 
 ![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_and_Total_Residential_Usage.png )
 *Figure 1: Total and Average Residential Water Usage Broken Down by Year*
@@ -44,7 +44,7 @@ Disaggregating by city ward allows us to get a better sense of where these chang
 ![center](/images/2017-12-28-Where-has-all-the-water-gone/AverageResUsage2015.jpg)
 *Figure 4: Average Residential Water Usage by City Ward*
 
-Total water usage in Toronto appears to have shifted from Etobicoke York and Scarborough to Toronto and East York from 2001 to 2015; however, this change is not obvious looking at the the information at the city ward level.  
+Total water usage in Toronto appears to have shifted from Etobicoke York and Scarborough to Toronto and East York from 2001 to 2015; however, this change is not obvious looking at the information at the city ward level.  
 
 ![center](/images/2017-12-28-Where-has-all-the-water-gone/CommunityCouncilPercentofTotalResUsage2001.jpg)
 ![center](/images/2017-12-28-Where-has-all-the-water-gone/CommunityCouncilPercentofTotalResUsage2015.jpg)
