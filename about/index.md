@@ -4,7 +4,7 @@ title: About Me
 excerpt: 
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: PANO_20150516_144348.jpg
+  feature: DSC_0090-2.jpg
   credit: Anthony Ionno
   creditlink: 
 ---
