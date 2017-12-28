@@ -16,7 +16,7 @@ What I found was a set of annual water usage data on the City of Toronto’s web
 
 Total and average water usage within the City of Toronto appears to be falling; however, for this analysis I ignore the year 2000 since the drop in total usage seems drastic and potentially incorrect, because of this I will refer to 2001 as the starting year in the dataset.
 
-The figure below shows that overall total water usage appears to be monotonically decreasing. Total water usage is 154.6 million m^3^ in 2000 and 134.9 million m^3^ in 2015 while average water usage is 417 and 290 m^3^. If I translate this to the recommended amount of water usage described above then in 2015 approximately .23 percent of water is used for consumption, while 99.77 percent is used for other purposes. 
+The figure below shows that overall total water usage appears to be monotonically decreasing. Total water usage is 154.6 million $$m^3$$ in 2000 and 134.9 million $$m^3$$ in 2015 while average water usage is 417 and 290 $$m^3$$. If I translate this to the recommended amount of water usage described above then in 2015 approximately .23 percent of water is used for consumption, while 99.77 percent is used for other purposes. 
 
 ![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_and_Total_Residential_Usage.png )
 *Figure 1: Total and Average Residential Water Usage Broken Down by Year*
