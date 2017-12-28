@@ -1,8 +1,11 @@
 ---
-title: "Untitled"
-author: "Anthony Ionno"
-date: "December 27, 2017"
+layout: post
+title: "test"
+author: anthony_ionno
+date: 2017-04-29
 output: html_document
+categories: blog
+excerpt:  "test"
 ---
 
 ```{r setup, include=FALSE}
