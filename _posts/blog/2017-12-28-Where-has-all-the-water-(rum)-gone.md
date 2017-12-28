@@ -18,7 +18,7 @@ Total and average water consumption within the City of Toronto appears to be fal
 
 The figure below shows that overall total water usage appears to be monotonically decreasing. Total water usage is 154.6 million meters cubed (m3) in 2000 and 134.9 million m3 in 2015 while average water consumption is 417 and 290 m3. If I translate this to the recommended amount of water consumption described above then in 2015 approximately .23 percent of water is used for consumption, while 99.77 percent is used for other purposes. 
 
-![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_and_Total_Residential_Usage.PNG)
+![center](/images/2017-12-28-Where-has-all-the-water-gone/Average_and_Total_Residential_Usage.png )
 
 The figure below shows the range of average water consumption values across all wards for 2001 and 2015. In both years, average water usage varies drastically; average water usage can be anywhere between 0 and 232 percent higher than another ward depending on the wards chosen for comparison.
 
